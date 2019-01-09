@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 50%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: -10px -20px;
+}
+</style>
+    </head>
+    <body>
+      	<nav>
+        <center>
+          <style>
+      nav {
+          border-style: double;
+          border-width: 5px;
+          font-size: 18px;
+          color: black;
+      }
+      </style>
+      		<a href="index1.html">Home Page</a> |
+      		<a href="index2.html">About Me</a> |
+      		<a href="index3.html">Projects</a> |
+      		<a href="index4.html">Contact Me</a> |
+        </center>
+      	</nav>
+    </body>
+    <body>
+      <center>
+        <h1>Contact Information</h1>
+      </center>
+      <div class="container">
+      <p><img style="padding: 0 15px; float: left" src="LukeOC.jpg" alt=LukeOC class="image" height="242" width="242"></p>
+      <p style="margin-top: 20px;"> </p>
+      <div class="middle">
+    <div class="text">Luke</div>
+  </div>
+</div>
+      <form action="helloMates.html">
+<fieldset>
+    <legend>Please enter your information:</legend>
+    First name: <input type="text" name="firstName" value=""><br>
+    Last name: <input type="text" name="lastName" value=""><br>
+    Email: <input type="text" name="email" value=""><br>
+    <br>
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+    <input type="submit" value="Submit">
+</fieldset>
+</form>
+      <p class="boldClass"><strong>I'm also found on <a href="https://devcodecamp.slack.com/messages/CF4MLMBQC/">Slack</a>.</p>
+      <p class="boldClass">For more information on my professional experience, you can find me on <a href="https://www.linkedin.com/in/luke-baierl-5305a591/">LinkedIn</a>.</strong></p>
+      <p class="boldClass"><strong>It's still new, but my <a href="https://github.com/LukeBaierl">GitHub</a> profile will be frequently updating as well.</strong></p>
+      <button type="button" onclick="alert('Smile! :-)')">Bad day?</button>
+      <p class="boldClass"><strong><big>Starting your idea from a blank slate can be intimidating, so send me the best way to contact you and expect to hear from me within 24 business hours.</big></strong></p>
+    <footer>
+      <center>
+      <p class="boldClass"><big><strong>Updated regularly by: <a href="index2.html">Luke Baierl</a>. | You know you want to <a href="https://www.linkedin.com/in/luke-baierl-5305a591/">get in touch</a>.</strong></big></p>
+      </center>
+    </footer>
+</body>

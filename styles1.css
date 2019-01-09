@@ -1,0 +1,25 @@
+body {
+	background-color: ivory;
+}
+h1 {
+	color: navy;
+	background-color: ivory;
+}
+.boldClass {
+	font-weight: bold;
+}
+#bigID {
+	font-size: 24px;
+}
+h3 {
+	background-color: ivory;
+	border-style: round;
+	color: navy;
+}
+p {
+	color: darkblue;
+}
+nav {
+	background-color: ivory;
+	border-style: round;
+}

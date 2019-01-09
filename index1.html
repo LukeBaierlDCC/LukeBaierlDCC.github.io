@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	<style>
+		h1 {
+		  border: 5px solid black;
+		  border-radius: 3px;
+		}
+		p.one {
+		  border: 1px solid black;
+		  border-radius: 2px;
+		}
+	</style>
+		<link rel="stylesheet" type="text/css" href="styles1.css">
+		<meta charset="UTF-8">
+		<title>Portfolio Site</title>
+		<meta name="description" Content="Describe the purpose of the site with a couple lines.">
+		<meta name="keywords" content="luke, portfolio">
+		<meta name="author" content="Luke">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial Black, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  
+  background-image: url("gaia1.jpg");
+  
+  
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  
+  height: 100%; 
+  
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  display: none;
+}
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <h2>Hello World!</h2>
+  <h2 style="font-size:45px"><u>My name is Luke</u></h2>
+  <h2 style="font-size:20px">And I love to code and create!</h2>
+</div>
+
+	<center>
+    <nav>
+      	<style>
+		nav {
+  			border-style: double;
+  			border-width: 5px;
+			}
+		</style>
+      	<a href="index1.html">Home Page</a> |
+      	<a href="index2.html">About Me</a> |
+      	<a href="index3.html">Projects</a> |
+      	<a href="index4.html">Contact Me</a> |
+    </center>
+    </nav>
+</body>
+<body>
+      <center>
+    <style>
+		  .underline {
+		  background-repeat: repeat-x;
+		}
+	</style>
+      	<u><h3 id="bigID"> Welcome to my first site.</h3></u>
+      </center>
+      
+</body>
+<body>
+  	<center>
+    <p class="boldClass"><big>This website will be perpetually changing for improvements.</big></p>
+    </center>
+    <center>
+    <p class="boldClass"><big>Please feel free to browse for an idea of what I do.</big></p>
+    </center>
+<div style="text-align:center">
+  <h2>Some of my interests:</h2>
+  <p>Click on the images below:</p>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="trailLuke.jpg" alt="Leave your trail behind." style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="waukeshaguitar.jpg" alt="Waukesha, WI -- aka Guitar City." style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="thirdward.jpg" alt="It all started just steps from here." style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="code.jpg" alt="How it begins." style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+	<script>
+	function myFunction(imgs) {
+  	var expandImg = document.getElementById("expandedImg");
+  	var imgText = document.getElementById("imgtext");
+  	expandImg.src = imgs.src;
+  	imgText.innerHTML = imgs.alt;
+  	expandImg.parentElement.style.display = "block";
+	}
+	</script>
+	<footer>
+      <center>
+      <p class="boldClass"><big>Updated regularly by: <a href="index2.html">Luke Baierl</a>. | <a href="index4.html">Click me</a> for contact information.</big></p>
+      </center>
+    </footer>
+    </body>
+</html>
